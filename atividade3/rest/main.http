@@ -1,0 +1,14 @@
+### Vars
+
+@url = http:/localhost:3000
+
+### index
+
+GET  {{url}}/users
+content-Type: aplication/json
+
+{
+    "name": "Jonathan",
+    "email": "Jonathan@email.com",
+    "password": "jojo123"
+}
